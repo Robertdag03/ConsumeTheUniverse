@@ -1,5 +1,9 @@
-var clicks = 0;
-function ClickClicked(){
-  clicks = clicks + 1;
-  document.getElementById("display").innerHTML = "You Have " + clicks + " Clicks";
+var matter = 0;
+function GatherClicked(){
+  matter = matter + 1;
+  document.getElementById("matterDisplay").innerHTML = "You Have " + matter + " Matter";
+}
+
+function Tick(){
+
 }
